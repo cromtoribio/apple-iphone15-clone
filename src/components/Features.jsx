@@ -36,12 +36,16 @@ const Features = () => {
             }
         )
 
-        animateWithGsap('.g_text',
+        gsap.to('.g_text',
             {
                 y: 0,
                 opacity: 1,
                 ease: 'power2.inOut',
-                duration: 1
+                duration: 1,
+                scrollTrigger: {
+                    trigger: '.g_text',
+                    start: "20% bottom",
+                }
             }
         )
     }, [])

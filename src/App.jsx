@@ -9,17 +9,16 @@ import Footer from "./components/Footer.jsx";
 
 
 const App = () => {
-
     return (
     <>
-      <main className="bg-black">
+      <main className="bg-black overflow-x-hidden">
         <Navbar />
         <Hero />
         <Highlights />
         <Model />
         <Features />
         <Chip />
-          <Footer />
+        <Footer />
       </main>
     </>
   )

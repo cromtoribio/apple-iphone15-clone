@@ -29,8 +29,8 @@ const Footer = () => {
                     </p>
                     <div className="flex">
                         {footerLinks.map((link, index) => (
-                            <p key={link} className="font-semibold text-gray text-xs hover:text-white cursor-pointer">
-                                {link}{' '}{index !== footerLinks.length -1 && <span className="text-gray mx-2">|</span> }
+                            <p key={link} className="font-semibold text-gray text-xs hover:text-white cursor-pointer max-sm:pr-2">
+                                {link}{' '}{index !== footerLinks.length -1 && <span className="text-gray mx-2 max-sm:hidden">|</span> }
                             </p>
                         ))}
                     </div>
