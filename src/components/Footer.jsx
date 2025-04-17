@@ -25,9 +25,10 @@ const Footer = () => {
                 <div className='bg-neutral-700 my-5 h-[1px]'/>
                 <div className="flex max-sm:flex-col md:items-center justify-between">
                     <p className="font-semibold text-gray text-xs">
-                        Created by Chris Toribio • Experience Architect
+                        Created by Chris Toribio • Experience Architect • {' '}
+                        <a href="https://github.com/cromtoribio/apple-iphone15-clone" target="_blank" className="underline text-blue hover:text-white">View Code on Github</a>
                     </p>
-                    <div className="flex">
+                    <div className="flex max-sm:flex-col max-sm:mt-4">
                         {footerLinks.map((link, index) => (
                             <p key={link} className="font-semibold text-gray text-xs hover:text-white cursor-pointer max-sm:pr-2">
                                 {link}{' '}{index !== footerLinks.length -1 && <span className="text-gray mx-2 max-sm:hidden">|</span> }
