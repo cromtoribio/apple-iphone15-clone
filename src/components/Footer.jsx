@@ -23,18 +23,18 @@ const Footer = () => {
                     </p>
                 </div>
                 <div className='bg-neutral-700 my-5 h-[1px]'/>
-                <div className="flex md:flex-row sm:flex-col md:items-center justify-between">
+                <div className="flex max-sm:flex-col md:items-center justify-between">
                     <p className="font-semibold text-gray text-xs">
-                        Copyright @ 2025 Apple Inc. All rights reserved.
+                        Created by Chris Toribio • Experience Architect
                     </p>
-                </div>
                     <div className="flex">
                         {footerLinks.map((link, index) => (
-                            <p key={link} className="font-semibold text-gray text-xs">
-                                {link}{' '}{index !== footerLinks.length -1 && <span className="mx-2">|</span> }
+                            <p key={link} className="font-semibold text-gray text-xs hover:text-white cursor-pointer">
+                                {link}{' '}{index !== footerLinks.length -1 && <span className="text-gray mx-2">|</span> }
                             </p>
                         ))}
                     </div>
+                </div>
             </div>
         </footer>
     )

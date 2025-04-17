@@ -36,7 +36,7 @@ export const highlightsSlides = [
             "iPhone ever. Far out.",
         ],
         video: highlightThirdVideo,
-        videoDuration: 2,
+        videoDuration: 4.5,
     },
     {
         id: 4,

@@ -63,7 +63,7 @@ const Chip = () => {
                                     best graphic performance by far.
                                 </span>
                             </p>
-                            <p className="hiw-text g_fadeIn">
+                            <p className="hiw-text g_fadeIn mt-7">
                                 Mobile {' '}
                                 <span className="text-white">
                                     games will look and feel so immersive.
