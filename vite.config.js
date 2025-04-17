@@ -5,9 +5,8 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
-    root: "/",
     base: process.env.NODE_ENV === "production" ? "/apple-iphone15-clone" : "",
-    publicDir: "../public/",
+    publicDir: "public/",
     plugins: [react(), tailwindcss(), sentryVitePlugin({
         org: "chris-toribio",
         project: "javascript-react"
