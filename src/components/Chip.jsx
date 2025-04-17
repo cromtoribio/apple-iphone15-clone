@@ -66,9 +66,9 @@ const Chip = () => {
                             <p className="hiw-text g_fadeIn mt-7">
                                 Mobile {' '}
                                 <span className="text-white">
-                                    games will look and feel so immersive.
+                                    games will look and feel so immersive
                                 </span>,
-                                With incredibly detailed environments and characters.
+                                with incredibly detailed environments and characters.
                             </p>
                         </div>
                         <div className="flex-1 flex justify-center flex-col g_fadeIn">
